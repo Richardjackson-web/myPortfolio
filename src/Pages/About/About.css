@@ -88,6 +88,37 @@ color: #4072AF;
     top: -1rem;
     left: 8rem;
 }
+
+/* Resume CSS */
+.about-experience, .about-education{
+    margin-top: 2rem;
+}
+.about-edu{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+color: #4072AF;
+
+}
+.about-title{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+color: #000000;
+}
+.about-content{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+color: #707070;
+}
+.month{
+    margin-right: 10rem;
+}
 @media screen and (max-width:480px) {
     .about-boxOne{
         margin-top: 1.5rem;
@@ -113,5 +144,8 @@ color: #4072AF;
     .index-img{
         top: 1.5rem;
         left: 0.4rem;
+    }
+    .about-education{
+        margin-top: 0rem;
     }
 }
