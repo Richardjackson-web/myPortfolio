@@ -17,7 +17,7 @@ function About() {
           <hr className="about-line"/>
           <h2 className="about-head">About me</h2>
           </div>
-            <Col sm={6} className="about-boxOne">
+            <Col sm={5} className="about-boxOne">
                 <h1 className="richard">I'm <span className="richard-span">Richard.</span><br/> Web Developer.</h1>
                 <p className="richard-text">
                 A front-end developer and tutor with over 3 years of experience that deals with the client-side of the web, building responsive, scalable, and aesthetic websites and web applications. JavaScript is my core  programming language with React.js as the area of specialty.
@@ -27,7 +27,7 @@ function About() {
                 <button className="about-button-testimonials">Testimonials</button>
                 </div>
             </Col>
-            <Col sm={6} className="about-boxTwo">
+            <Col sm={7} className="about-boxTwo">
             <div className="about-image">
 
             </div>

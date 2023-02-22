@@ -5,6 +5,7 @@
 
 .about-main{
     background: rgba(64, 114, 175, 0.06);
+    margin-top: 30px;
 }
 .about-scroll{
     position: fixed;
@@ -19,7 +20,7 @@
     font-family: 'Inter';
 font-style: normal;
 font-weight: 500;
-font-size: 24px;
+font-size: 26px;
 color: #252525;
 }
 .about-boxOne{
@@ -39,14 +40,14 @@ color: #102D4D;
     font-family: 'JetBrains Mono';
 font-style: normal;
 font-weight: 400;
-font-size: 12px;
+font-size: 14px;
 line-height: 172.02%;
 color: #777777;
 margin-top: 3rem;
 text-align: justify;
 }
 .btn-div{
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 .about-button-resume{
     background: #4072AF;
@@ -86,4 +87,31 @@ color: #4072AF;
     z-index: -1;
     top: -1rem;
     left: 8rem;
+}
+@media screen and (max-width:480px) {
+    .about-boxOne{
+        margin-top: 1.5rem;
+    }
+    .richard-text{
+        margin-top: 1.5rem;
+        font-size: 12px;
+    }
+    .about-button-resume{
+        padding: 10px 30px 10px 30px;
+    }
+    .about-button-testimonials{
+        padding: 10px 30px 10px 30px;
+    }
+    .btn-div{
+        margin-top: 2rem;
+        text-align: center;
+    }
+    .about-image{
+        margin-top: 2rem;
+        margin-left: 0rem;
+    }
+    .index-img{
+        top: 1.5rem;
+        left: 0.4rem;
+    }
 }
