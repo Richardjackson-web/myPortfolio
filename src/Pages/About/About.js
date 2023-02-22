@@ -5,8 +5,9 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import {AiFillTwitterCircle} from 'react-icons/ai';
 import {RiWhatsappFill, RiInstagramFill, RiFacebookCircleFill} from 'react-icons/ri'; 
-// import Scroll from '../../Image/scroll.png';
+import Test from '../../Image/test.png';
 import Index from '../../Image/index.png';
+import Stars from '../../Image/stars.png';
 
 function About() {
   return (
@@ -46,7 +47,7 @@ function About() {
     </Container>
 
     <Container>
-      <Row>
+      <Row className="resume-row">
           <div>
           <hr className="about-line"/>
           <h2 className="about-head">Resume</h2>
@@ -76,6 +77,21 @@ function About() {
                 <h4 className="about-title">James and Jones Nur./Pri. School &nbsp;&nbsp;&nbsp;&nbsp;June 2007</h4>
                 <p className="about-content">FSLC.</p><br/>
             </Col>
+      </Row>
+    </Container>
+
+    <Container>
+      <Row className="main-test">
+          <Col sm={12}>
+          <h1 className="testimonial">TESTIMONIALS</h1>
+          <div className="test-div">
+            <img src={Test}/>
+            <p className="test-text">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
+            <img src={Stars}/>
+            <h3 className="test-client">Regina Miles</h3>
+            <p className="client">Designer</p>
+          </div>
+          </Col>
       </Row>
     </Container>
     </div>

@@ -90,6 +90,10 @@ color: #4072AF;
 }
 
 /* Resume CSS */
+.resume-row{
+    background-color: rgba(64, 114, 175, 0.06);
+    border-radius: 16px;
+}
 .about-experience, .about-education{
     margin-top: 2rem;
 }
@@ -118,6 +122,52 @@ color: #707070;
 }
 .month{
     margin-right: 10rem;
+}
+/* Testimonial CSS */
+.main-test{
+    text-align: center;
+}
+.testimonial{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 36px;
+color: #000000;
+}
+.test-div{
+    max-width:100%;
+height: 366.01px;
+background: #F4F7FA;
+border: 1px solid #DEDEDE;
+border-radius: 5px;
+}
+.test-text{
+    font-family: 'JetBrains Mono';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+letter-spacing: 0.2px;
+color: #737373;
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+.test-client{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+letter-spacing: 0.1px;
+color: #252B42;
+}
+.client{
+    font-family: 'JetBrains Mono';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+letter-spacing: 0.2px;
+color: #737373;
 }
 @media screen and (max-width:480px) {
     .about-boxOne{
