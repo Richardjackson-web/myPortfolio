@@ -70,3 +70,20 @@ font-weight: 600;
 font-size: 14px;
 color: #4072AF;
 }
+.about-boxTwo{
+    position: relative;
+}
+.about-image{
+    width:364px;
+    height:392px;
+    background-image:url(../../Image/AboutImage.jpg);
+    background-size: 100% 100%;
+    border-radius: 16px;
+    margin-left: 8rem;
+}
+.index-img{
+    position: absolute;
+    z-index: -1;
+    top: -1rem;
+    left: 8rem;
+}

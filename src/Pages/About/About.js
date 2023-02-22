@@ -5,8 +5,8 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import {AiFillTwitterCircle} from 'react-icons/ai';
 import {RiWhatsappFill, RiInstagramFill, RiFacebookCircleFill} from 'react-icons/ri'; 
-import Scroll from '../../Image/scroll.png';
-import AboutImage from '../../Image/AboutImage.jpg';
+// import Scroll from '../../Image/scroll.png';
+import Index from '../../Image/index.png';
 
 function About() {
   return (
@@ -20,7 +20,7 @@ function About() {
             <Col sm={6} className="about-boxOne">
                 <h1 className="richard">I'm <span className="richard-span">Richard.</span><br/> Web Developer.</h1>
                 <p className="richard-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Read more
+                A front-end developer and tutor with over 3 years of experience that deals with the client-side of the web, building responsive, scalable, and aesthetic websites and web applications. JavaScript is my core  programming language with React.js as the area of specialty.
                 </p>
                 <div className="btn-div">
                 <button className="about-button-resume">Resume</button>&nbsp;&nbsp;
@@ -28,12 +28,13 @@ function About() {
                 </div>
             </Col>
             <Col sm={6} className="about-boxTwo">
-            <div>
-              <img src={AboutImage}/>
+            <div className="about-image">
+
             </div>
+            <img className="index-img" src={Index}/>
             </Col>
             <div>
-              <img className="about-scroll" src={Scroll}/>
+              {/* <img className="about-scroll" src={Scroll}/> */}
             </div>
         </Row>
         <div className="social-holder">
