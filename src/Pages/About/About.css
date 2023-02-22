@@ -141,6 +141,9 @@ background: #F4F7FA;
 border: 1px solid #DEDEDE;
 border-radius: 5px;
 }
+.test-img{
+    padding-top: 5rem;
+}
 .test-text{
     font-family: 'JetBrains Mono';
 font-style: normal;

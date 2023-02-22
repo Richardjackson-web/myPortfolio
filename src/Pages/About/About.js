@@ -85,7 +85,7 @@ function About() {
           <Col sm={12}>
           <h1 className="testimonial">TESTIMONIALS</h1>
           <div className="test-div">
-            <img src={Test}/>
+            <img className="test-img" src={Test}/>
             <p className="test-text">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
             <img src={Stars}/>
             <h3 className="test-client">Regina Miles</h3>
@@ -94,6 +94,7 @@ function About() {
           </Col>
       </Row>
     </Container>
+    
     </div>
   )
 }
