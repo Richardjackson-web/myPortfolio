@@ -10,11 +10,12 @@ import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import {AiOutlineMail} from 'react-icons/ai';
+import {AiOutlineMail, AiFillTwitterCircle} from 'react-icons/ai';
 import {FaHtml5} from 'react-icons/fa';
 import {FaCss3} from 'react-icons/fa';
 import {SiJavascript} from 'react-icons/si';
 import {FaReact} from 'react-icons/fa';
+import {RiWhatsappFill, RiInstagramFill, RiFacebookCircleFill} from 'react-icons/ri'; 
 import Scroll from '../../Image/scroll.png';
 
 function Home() {
@@ -78,6 +79,12 @@ function Home() {
               <img className="scroll" src={Scroll}/>
             </div>
         </Row>
+        <div className="social-holder">
+        <RiWhatsappFill className="social-icons" />&nbsp;&nbsp;
+        <RiInstagramFill className="social-icons" />&nbsp;&nbsp;
+        <RiFacebookCircleFill className="social-icons" />&nbsp;&nbsp;
+        <AiFillTwitterCircle className="social-icons" />&nbsp;&nbsp;
+        </div>
     </Container>
     </div>
   )
