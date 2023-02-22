@@ -11,6 +11,11 @@ import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import {AiOutlineMail} from 'react-icons/ai';
+import {FaHtml5} from 'react-icons/fa';
+import {FaCss3} from 'react-icons/fa';
+import {SiJavascript} from 'react-icons/si';
+import {FaReact} from 'react-icons/fa';
+import Scroll from '../../Image/scroll.png';
 
 function Home() {
   return (
@@ -56,6 +61,12 @@ function Home() {
                     <h1 className="home-text">Hi There!<br/> I'm Richard.</h1>
                     <p className="home-front">Frontend Web Developer.</p>
                     <Button className="home-button">Learn More</Button>
+                    <div className="icon-holder">
+                      <FaHtml5 className="icons" />&nbsp;&nbsp;
+                      <FaCss3 className="icons" />&nbsp;&nbsp;
+                      <SiJavascript className="icons" />&nbsp;&nbsp;
+                      <FaReact className="icons" />
+                    </div>
                 </div>
             </Col>
             <Col sm={6} className="boxTwo">
@@ -63,6 +74,9 @@ function Home() {
 
             </div>
             </Col>
+            <div>
+              <img className="scroll" src={Scroll}/>
+            </div>
         </Row>
     </Container>
     </div>
