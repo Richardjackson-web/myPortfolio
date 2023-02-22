@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400&display=swap');
+
+.about-main{
+    background: rgba(64, 114, 175, 0.06);
+}
+.about-scroll{
+    position: fixed;
+    top: 17rem;
+    right: 50px;
+}
+.about-line{
+    width: 13rem;
+    border: 1.5px solid #252525;
+}
+.about-head{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+color: #252525;
+}
+.about-boxOne{
+    margin-top: 5rem;
+}
+.richard{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+color: #102D4D;
+}
+.richard-span{
+    color:#4072AF;
+}
+.richard-text{
+    font-family: 'JetBrains Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 172.02%;
+color: #777777;
+margin-top: 3rem;
+text-align: justify;
+}
+.btn-div{
+    margin-top: 2rem;
+}
+.about-button-resume{
+    background: #4072AF;
+border-radius: 4px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+color:#fff;
+    border: 2px solid #4072AF;
+    padding: 10px 60px 10px 60px;
+}
+.about-button-testimonials{
+    background: #fff;
+        padding: 10px 60px 10px 60px;
+    border: 2px solid #4072AF;
+border-radius: 4px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+color: #4072AF;
+}
