@@ -201,4 +201,10 @@ color: #737373;
     .about-education{
         margin-top: 0rem;
     }
+    .scroll{
+        display: none;
+    }
+    .social-holder{
+        display: none;
+    }
 }

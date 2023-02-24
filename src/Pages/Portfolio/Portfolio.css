@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400&display=swap');
+
+.portfolio-line{
+    width: 13rem;
+    border: 1.5px solid #252525;
+}
+.portfolio-head{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+color: #252525;
+}
+.portfolio-text{
+    font-family: 'JetBrains Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+color: #707070;
+}
+.social-icons{
+    color: #4072AF;
+    font-size: 30px;
+}
+.social-holder{
+    margin-top: 50px;
+}
+.scroll{
+    position: fixed;
+    top: 17rem;
+    right: 50px;
+}
+.port{
+    background: #DAE2EF;
+}
+@media screen and (max-width:480px) {
+    .scroll{
+        display: none;
+    }
+    .social-holder{
+        display: none;
+    }
+    .port-col{
+        margin-top: 1.5rem;
+    }
+    .port-move{
+        margin-left: 2rem;
+    }
+}
