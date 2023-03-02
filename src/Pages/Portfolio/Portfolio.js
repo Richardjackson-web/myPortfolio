@@ -31,34 +31,34 @@ function Portfolio() {
           </Col>
         </Row>
 
-        <Row>
+        <Row className="port-row">
           <Col className="port-move" sm={4}>
-          <Card style={{ width: '18rem' }}>
+          <Card className="port-card" style={{ width: '18rem' }}>
             <Card.Img variant="top" src={Icevolt} />
             <Card.Body>
             <Card.Title>Icevolt</Card.Title>
-            <Button variant="primary">Click here to visit site.</Button>
+            <a href="https://practical-pare-e86f1b.netlify.app/"><button className="port-btn">Click here to visit site.</button></a>
             </Card.Body>
           </Card>
           </Col>
           
           <Col className="port-col port-move" sm={4}>
-          <Card style={{ width: '18rem' }}>
+          <Card className="port-card" style={{ width: '18rem' }}>
             <Card.Img variant="top" src={Winters} />
             <Card.Body>
             <Card.Title>Winters Betting</Card.Title>
-            <Button variant="primary">Click here to visit site.</Button>
+            <a href="https://bet-site.vercel.app/"><button className="port-btn">Click here to visit site.</button></a>
             </Card.Body>
           </Card>
           </Col>
           
           
           <Col className="port-col port-move" sm={4}>
-          <Card style={{ width: '18rem' }}>
+          <Card className="port-card" style={{ width: '18rem' }}>
             <Card.Img variant="top" src={MyPortfolio} />
             <Card.Body>
             <Card.Title>My Portfolio</Card.Title>
-            <Button variant="primary">Click here to visit site.</Button>
+            <a href="https://my-portfolio-richard.vercel.app/"><button className="port-btn">Click here to visit site.</button></a>
             </Card.Body>
           </Card>
           </Col>
@@ -67,33 +67,33 @@ function Portfolio() {
         <Row>
           
           <Col className="port-move" sm={4}>
-          <Card style={{ width: '18rem' }}>
+          <Card className="port-card" style={{ width: '18rem' }}>
             <Card.Img variant="top" src={Linktree} />
             <Card.Body>
             <Card.Title>Linktree</Card.Title>
-            <Button variant="primary">Click here to visit site.</Button>
+            <a href="https://linktree-profile.vercel.app/"><button className="port-btn">Click here to visit site.</button></a>
             </Card.Body>
           </Card>
           </Col>
           
           
           <Col className="port-col port-move" sm={4}>
-          <Card style={{ width: '18rem' }}>
+          <Card className="port-card" style={{ width: '18rem' }}>
             <Card.Img variant="top" src={Weather} />
             <Card.Body>
             <Card.Title>A Weather App</Card.Title>
-            <Button variant="primary">Click here to visit site.</Button>
+            <a href="https://myweathermap.netlify.app/"><button className="port-btn">Click here to visit site.</button></a>
             </Card.Body>
           </Card>
           </Col>
           
           
           <Col className="port-col port-move" sm={4}>
-          <Card style={{ width: '18rem' }}>
+          <Card className="port-card" style={{ width: '18rem' }}>
             <Card.Img variant="top" src={Volunteer} />
             <Card.Body>
             <Card.Title>Volunteer Organization</Card.Title>
-            <Button variant="primary">Click here to visit site.</Button>
+            <a href="https://becomeavolunteer.netlify.app/"><button className="port-btn">Click here to visit site.</button></a>
             </Card.Body>
           </Card>
           </Col>

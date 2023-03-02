@@ -33,6 +33,25 @@ color: #707070;
 .port{
     background: #DAE2EF;
 }
+.port-card{
+    background-color: #102d4d;
+    color: #fff;
+    border: none;
+}
+.port-row{
+    /* background-color: #6895AE; */
+}
+.port-btn{
+    background: #4072AF;
+    border-radius: 4px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color:#fff;
+        border: 2px solid #4072AF;
+        padding: 7px 20px 7px 20px;
+}
 @media screen and (max-width:480px) {
     .scroll{
         display: none;
