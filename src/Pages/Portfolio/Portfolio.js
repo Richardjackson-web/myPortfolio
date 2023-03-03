@@ -32,7 +32,7 @@ function Portfolio() {
         </Row>
 
         <Row className="port-row">
-          <Col className="port-move" sm={4}>
+          <Col className="port-move" md={4} sm={12}>
           <Card className="port-card" style={{ width: '18rem' }}>
             <Card.Img variant="top" src={Icevolt} />
             <Card.Body>
@@ -42,7 +42,7 @@ function Portfolio() {
           </Card>
           </Col>
           
-          <Col className="port-col port-move" sm={4}>
+          <Col className="port-col port-move" md={4} sm={12}>
           <Card className="port-card" style={{ width: '18rem' }}>
             <Card.Img variant="top" src={Winters} />
             <Card.Body>
@@ -53,7 +53,7 @@ function Portfolio() {
           </Col>
           
           
-          <Col className="port-col port-move" sm={4}>
+          <Col className="port-col port-move" md={4} sm={12}>
           <Card className="port-card" style={{ width: '18rem' }}>
             <Card.Img variant="top" src={MyPortfolio} />
             <Card.Body>
@@ -66,7 +66,7 @@ function Portfolio() {
           <br/>
         <Row>
           
-          <Col className="port-move" sm={4}>
+          <Col className="port-move" md={4} sm={12}>
           <Card className="port-card" style={{ width: '18rem' }}>
             <Card.Img variant="top" src={Linktree} />
             <Card.Body>
@@ -77,7 +77,7 @@ function Portfolio() {
           </Col>
           
           
-          <Col className="port-col port-move" sm={4}>
+          <Col className="port-col port-move" md={4} sm={12}>
           <Card className="port-card" style={{ width: '18rem' }}>
             <Card.Img variant="top" src={Weather} />
             <Card.Body>
@@ -88,7 +88,7 @@ function Portfolio() {
           </Col>
           
           
-          <Col className="port-col port-move" sm={4}>
+          <Col className="port-col port-move" md={4} sm={12}>
           <Card className="port-card" style={{ width: '18rem' }}>
             <Card.Img variant="top" src={Volunteer} />
             <Card.Body>

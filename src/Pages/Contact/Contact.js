@@ -10,11 +10,11 @@ import {RiWhatsappFill, RiInstagramFill, RiFacebookCircleFill} from 'react-icons
 function Contact() {
   return (
     <div>
-      <Container className="about-main">
-        <Row className="row-about">
+      <Container className="contact-main">
+        <Row className="row-contact">
           <div>
-          <hr className="about-line"/>
-          <h2 className="about-head">Contact me</h2>
+          <hr className="contact-line"/>
+          <h2 className="contact-head">Contact me</h2>
           </div>
             
         </Row>
@@ -26,7 +26,7 @@ function Contact() {
         <Col md={3} xs={12}>
           <Form.Control placeholder="First name" />
         </Col>
-        <br/>
+        <br/><br className="con-br"/><br className="con-br"/>
         <Col md={3} xs={12}>
           <Form.Control placeholder="Last name" />
         </Col>
@@ -65,11 +65,11 @@ function Contact() {
       <br/>
       <Row>
         <Col>
-        <button>Email</button> 
+        <button className="con-mail">Send mail</button> 
         </Col>
       </Row>
     </Form>
-        <div className="social-holder">
+        <div className="social-holder-contact">
         <RiWhatsappFill className="social-icons" />&nbsp;&nbsp;
         <RiInstagramFill className="social-icons" />&nbsp;&nbsp;
         <RiFacebookCircleFill className="social-icons" />&nbsp;&nbsp;

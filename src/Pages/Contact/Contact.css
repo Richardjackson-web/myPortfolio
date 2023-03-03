@@ -17,4 +17,37 @@ color: #252525;
 }
 .contact-form{
     text-align: center;
+    padding-top: 3rem;
+}
+.con-mail{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+color: #8D8F92;
+border-radius: 4px;
+border: 1px solid #000;
+padding: 8px 17px;
+}
+.social-holder-contact{
+    margin-top: 2rem;
+    text-align: center;
+}
+::placeholder{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+color: #8D8F92;
+}
+.con-br{
+    display: none;
+}
+@media screen and (max-width:480px) {
+    .con-br{
+        display: block;
+    }
+    .contact-form{
+        padding-top: 1.5rem;
+    }
 }
