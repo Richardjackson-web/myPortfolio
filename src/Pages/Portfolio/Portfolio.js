@@ -33,7 +33,7 @@ function Portfolio() {
 
         <Row className="port-row">
           <Col className="port-move" md={4} sm={12}>
-          <Card className="port-card" style={{ width: '18rem' }}>
+          <Card className="port-card">
             <Card.Img variant="top" src={Icevolt} />
             <Card.Body>
             <Card.Title>Icevolt</Card.Title>
@@ -43,7 +43,7 @@ function Portfolio() {
           </Col>
           
           <Col className="port-col port-move" md={4} sm={12}>
-          <Card className="port-card" style={{ width: '18rem' }}>
+          <Card className="port-card">
             <Card.Img variant="top" src={Winters} />
             <Card.Body>
             <Card.Title>Winters Betting</Card.Title>
@@ -54,7 +54,7 @@ function Portfolio() {
           
           
           <Col className="port-col port-move" md={4} sm={12}>
-          <Card className="port-card" style={{ width: '18rem' }}>
+          <Card className="port-card">
             <Card.Img variant="top" src={MyPortfolio} />
             <Card.Body>
             <Card.Title>My Portfolio</Card.Title>
@@ -67,7 +67,7 @@ function Portfolio() {
         <Row>
           
           <Col className="port-move" md={4} sm={12}>
-          <Card className="port-card" style={{ width: '18rem' }}>
+          <Card className="port-card">
             <Card.Img variant="top" src={Linktree} />
             <Card.Body>
             <Card.Title>Linktree</Card.Title>
@@ -78,7 +78,7 @@ function Portfolio() {
           
           
           <Col className="port-col port-move" md={4} sm={12}>
-          <Card className="port-card" style={{ width: '18rem' }}>
+          <Card className="port-card">
             <Card.Img variant="top" src={Weather} />
             <Card.Body>
             <Card.Title>A Weather App</Card.Title>
@@ -89,7 +89,7 @@ function Portfolio() {
           
           
           <Col className="port-col port-move" md={4} sm={12}>
-          <Card className="port-card" style={{ width: '18rem' }}>
+          <Card className="port-card">
             <Card.Img variant="top" src={Volunteer} />
             <Card.Body>
             <Card.Title>Volunteer Organization</Card.Title>
