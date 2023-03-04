@@ -48,6 +48,7 @@ text-align: justify;
 }
 .btn-div{
     margin-top: 3rem;
+    padding-bottom: 3rem;
 }
 .about-button-resume{
     background: #4072AF;
@@ -172,6 +173,9 @@ font-size: 14px;
 letter-spacing: 0.2px;
 color: #737373;
 }
+.social-holder{
+    display: none;
+}
 @media screen and (max-width:480px) {
     .about-boxOne{
         margin-top: 1.5rem;
@@ -206,5 +210,20 @@ color: #737373;
     }
     .social-holder{
         display: none;
+    }
+}
+@media screen and (max-width:768px) {
+    .about-image{
+        margin-left: 0.5rem;
+    }
+    .index-img{
+        top: -1rem;
+        left: 0.4rem;
+    }
+    .about-button-resume{
+        padding: 5px 20px;
+    }
+    .about-button-testimonials{
+        padding: 5px 20px;
     }
 }
