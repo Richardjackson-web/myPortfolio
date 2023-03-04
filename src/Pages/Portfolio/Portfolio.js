@@ -35,7 +35,7 @@ function Portfolio() {
           <Col className="port-move" md={4} sm={12}>
           <Card className="port-card">
             <Card.Img variant="top" src={Icevolt} />
-            <Card.Body>
+            <Card.Body className="card-body">
             <Card.Title>Icevolt</Card.Title>
             <a href="https://practical-pare-e86f1b.netlify.app/"><button className="port-btn">Click here to visit site.</button></a>
             </Card.Body>
@@ -45,7 +45,7 @@ function Portfolio() {
           <Col className="port-col port-move" md={4} sm={12}>
           <Card className="port-card">
             <Card.Img variant="top" src={Winters} />
-            <Card.Body>
+            <Card.Body className="card-body">
             <Card.Title>Winters Betting</Card.Title>
             <a href="https://bet-site.vercel.app/"><button className="port-btn">Click here to visit site.</button></a>
             </Card.Body>
@@ -56,7 +56,7 @@ function Portfolio() {
           <Col className="port-col port-move" md={4} sm={12}>
           <Card className="port-card">
             <Card.Img variant="top" src={MyPortfolio} />
-            <Card.Body>
+            <Card.Body className="card-body">
             <Card.Title>My Portfolio</Card.Title>
             <a href="https://my-portfolio-richard.vercel.app/"><button className="port-btn">Click here to visit site.</button></a>
             </Card.Body>
@@ -69,7 +69,7 @@ function Portfolio() {
           <Col className="port-move" md={4} sm={12}>
           <Card className="port-card">
             <Card.Img variant="top" src={Linktree} />
-            <Card.Body>
+            <Card.Body className="card-body">
             <Card.Title>Linktree</Card.Title>
             <a href="https://linktree-profile.vercel.app/"><button className="port-btn">Click here to visit site.</button></a>
             </Card.Body>
@@ -80,7 +80,7 @@ function Portfolio() {
           <Col className="port-col port-move" md={4} sm={12}>
           <Card className="port-card">
             <Card.Img variant="top" src={Weather} />
-            <Card.Body>
+            <Card.Body className="card-body">
             <Card.Title>A Weather App</Card.Title>
             <a href="https://myweathermap.netlify.app/"><button className="port-btn">Click here to visit site.</button></a>
             </Card.Body>
@@ -91,7 +91,7 @@ function Portfolio() {
           <Col className="port-col port-move" md={4} sm={12}>
           <Card className="port-card">
             <Card.Img variant="top" src={Volunteer} />
-            <Card.Body>
+            <Card.Body className="card-body">
             <Card.Title>Volunteer Organization</Card.Title>
             <a href="https://becomeavolunteer.netlify.app/"><button className="port-btn">Click here to visit site.</button></a>
             </Card.Body>

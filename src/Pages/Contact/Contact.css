@@ -43,6 +43,9 @@ color: #8D8F92;
 .con-br{
     display: none;
 }
+.card-body{
+    text-align: center;
+}
 @media screen and (max-width:480px) {
     .con-br{
         display: block;
