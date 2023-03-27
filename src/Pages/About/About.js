@@ -34,15 +34,15 @@ function MyVerticallyCenteredModal(props) {
             <Col sm={7} className="about-experience">
             <h4 className="about-edu">Experience</h4>
                 <h4 className="about-title">Wedigraf Technologies &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className="month">Aug. 2022 - Nov. 2022</span></h4>
-                <h4 className="about-content">Frontend Developer Tutor</h4>
+                <h4 className="about-content add">Frontend Developer Tutor</h4>
                 <p className="about-content">I taught and mentored beginners on HTML, CSS, JavaScript, Git/GitHub and Reactjs to help them become better developers and build responsive and great looking websites and web applications.</p><br/>
 
                 <h4 className="about-title">Zuri Chat &nbsp;&nbsp;&nbsp;&nbsp;Sep. 2021 - Dec. 2021</h4>
-                <h4 className="about-content">Frontend Developer</h4>
+                <h4 className="about-content add">Frontend Developer</h4>
                 <p className="about-content">I lead a team of 100 developers across different continents to build a company holiday calendar plugin to be integrated into Zuri Chat (a slack clone but embedded with great futures).</p><br/>
 
                 <h4 className="about-title">Icevolt &nbsp;&nbsp;&nbsp;&nbsp;Oct. 2021 - Nov. 2021</h4>
-                <h4 className="about-content">Frontend Developer</h4>
+                <h4 className="about-content add">Frontend Developer</h4>
                 <p className="about-content">I built a responsive user interface for a web application where one can order solar equipment and tailoring it a specific specifications of need.</p><br/>
             </Col>
             <Col sm={5} className="about-education">
@@ -106,7 +106,7 @@ function About() {
   const [modalShow, setModalShow] = React.useState(false);
   const [modalShowTest, setModalShowTest] = React.useState(false);
   return (
-    <div>
+    <div className="about">
       <Container className="about-main">
         <Row className="row-about">
           <div>
@@ -143,11 +143,11 @@ function About() {
               {/* <img className="about-scroll" src={Scroll}/> */}
             </div>
         </Row>
-        <div className="social-holder">
-        <RiWhatsappFill className="social-icons" />&nbsp;&nbsp;
-        <RiInstagramFill className="social-icons" />&nbsp;&nbsp;
-        <RiFacebookCircleFill className="social-icons" />&nbsp;&nbsp;
-        <AiFillTwitterCircle className="social-icons" />&nbsp;&nbsp;
+        <div className="about-social-holder">
+        <RiWhatsappFill className="about-social-icons" />&nbsp;&nbsp;
+        <RiInstagramFill className="about-social-icons" />&nbsp;&nbsp;
+        <RiFacebookCircleFill className="about-social-icons" />&nbsp;&nbsp;
+        <AiFillTwitterCircle className="about-social-icons" />&nbsp;&nbsp;
         </div>
     </Container>
     

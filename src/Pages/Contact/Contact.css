@@ -1,20 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
 
+.contact{
+    background-color: #13181E;
+}
 .contact-main{
-    background: rgba(64, 114, 175, 0.06);
-    margin-top: 30px;
+    background: #13181E;
+    padding: 30px 0px;
 }
 .contact-line{
-    width: 13rem;
-    border: 1.5px solid #252525;
+    max-width: 20%;
+    border: 1.5px solid #fff;
 }
 .contact-head{
     font-family: 'Inter';
 font-style: normal;
 font-weight: 500;
 font-size: 26px;
-color: #252525;
+color: #fff;
 }
 .contact-form{
     text-align: center;
@@ -25,14 +28,14 @@ color: #252525;
 font-style: normal;
 font-weight: 400;
 font-size: 12px;
-color: #8D8F92;
+color: #4072AF;
 border-radius: 4px;
-border: 1px solid #000;
+border: 2px solid #4072AF;
 padding: 8px 17px;
-background: rgba(64, 114, 175, 0.06);
+background: #0B0E14;
 }
 .social-holder-contact{
-    margin-top: 2rem;
+    margin-top: 4rem;
     text-align: center;
 }
 ::placeholder{
@@ -40,7 +43,11 @@ background: rgba(64, 114, 175, 0.06);
 font-style: normal;
 font-weight: 400;
 font-size: 12px;
-color: #8D8F92;
+color: #000;
+}
+.input{
+    background-color: #cccbcb;
+    color: #000;
 }
 .con-br{
     display: none;
@@ -48,6 +55,7 @@ color: #8D8F92;
 .card-body{
     text-align: center;
 }
+
 @media screen and (max-width:480px) {
     .con-br{
         display: block;
@@ -55,7 +63,16 @@ color: #8D8F92;
     .contact-form{
         padding-top: 1.5rem;
     }
-    /* .port-card{
-        width: 40rem;
-    } */
+    .mobi-dis{
+        display: block;
+    }
+    .extra{
+        margin-left: 2.5rem;
+    }
+    .contact-head{
+        text-align: center;
+    }
+    .contact-line{
+        max-width: 100%;
+    }
 }

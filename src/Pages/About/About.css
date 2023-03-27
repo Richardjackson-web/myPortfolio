@@ -3,8 +3,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400&display=swap');
 
+:root{
+    --bs-modal-bg:#0B0E14;
+}
+.modal-content{
+    background-color: var(--bs-modal-bg);
+}
+.modal{
+    --bs-modal-bg:#0B0E14;
+}
+.about{
+    background-color: #0B0E14;
+}
 .about-main{
-    background: rgba(64, 114, 175, 0.06);
+    background-color: #0B0E14;;
+    padding: 30px 0px;
     margin-top: 30px;
 }
 .about-scroll{
@@ -14,14 +27,14 @@
 }
 .about-line{
     width: 13rem;
-    border: 1.5px solid #252525;
+    border: 1.5px solid #fff;
 }
 .about-head{
     font-family: 'Inter';
 font-style: normal;
 font-weight: 500;
 font-size: 26px;
-color: #252525;
+color: #ffffff;
 }
 .about-boxOne{
     margin-top: 5rem;
@@ -30,17 +43,17 @@ color: #252525;
     font-family: 'Inter';
 font-style: normal;
 font-weight: 800;
-font-size: 24px;
-color: #102D4D;
+font-size: 30px;
+color: #ffffff;
 }
 .richard-span{
-    color:#4072AF;
+    color:#71A1CB;
 }
 .richard-text{
     font-family: 'JetBrains Mono';
 font-style: normal;
 font-weight: 400;
-font-size: 14px;
+font-size: 16px;
 line-height: 172.02%;
 color: #777777;
 margin-top: 3rem;
@@ -62,7 +75,7 @@ color:#fff;
     padding: 10px 60px 10px 60px;
 }
 .about-button-testimonials{
-    background: #fff;
+    background: #0B0E14;
         padding: 10px 60px 10px 60px;
     border: 2px solid #4072AF;
 border-radius: 4px;
@@ -76,18 +89,21 @@ color: #4072AF;
     position: relative;
 }
 .about-image{
-    width:364px;
-    height:392px;
+    width:404px;
+    height:432px;
     background-image:url(../../Image/AboutImage.jpg);
+    background-color: #6c6c6c;
+    background-blend-mode: overlay;
     background-size: 100% 100%;
     border-radius: 16px;
-    margin-left: 8rem;
+    margin-left: 9rem;
+    margin-top: 3rem;
 }
 .index-img{
     position: absolute;
     z-index: -1;
-    top: -1rem;
-    left: 8rem;
+    top: 2rem;
+    left: 9rem;
 }
 
 /* Resume CSS */
@@ -103,7 +119,7 @@ color: #4072AF;
 font-style: normal;
 font-weight: 700;
 font-size: 16px;
-color: #4072AF;
+color: #71A1CB;
 
 }
 .about-title{
@@ -112,14 +128,17 @@ font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 17px;
-color: #000000;
+color: #fff;
+}
+.add{
+    color: #fff !important;
 }
 .about-content{
     font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
 font-size: 12px;
-color: #707070;
+color: #a7a7a7;
 }
 .month{
     margin-right: 10rem;
@@ -173,16 +192,27 @@ font-size: 14px;
 letter-spacing: 0.2px;
 color: #737373;
 }
-.social-holder{
-    display: none;
+.about-social-holder{
+    margin-bottom: 2rem;
+}
+.about-social-icons{
+    color: #4072AF;
+    font-size: 30px;
 }
 @media screen and (max-width:480px) {
     .about-boxOne{
         margin-top: 1.5rem;
     }
+    .about-head{
+        padding-left: 0.5rem;
+    }
+    .richard{
+        padding-left: 0.5rem;
+    }
     .richard-text{
         margin-top: 1.5rem;
         font-size: 12px;
+        padding: 0rem 0.5rem;
     }
     .about-button-resume{
         padding: 10px 30px 10px 30px;
@@ -196,7 +226,9 @@ color: #737373;
     }
     .about-image{
         margin-top: 2rem;
-        margin-left: 0rem;
+        margin-left: auto;
+        margin-right:auto;
+        display:block;
     }
     .index-img{
         top: 1.5rem;
@@ -208,11 +240,11 @@ color: #737373;
     .scroll{
         display: none;
     }
-    .social-holder{
+    .about-social-holder{
         display: none;
     }
 }
-@media screen and (min-width:480px) {
+/* @media screen and (min-width:480px) {
     .about-image{
         margin-left: 0.5rem;
     }
@@ -226,4 +258,4 @@ color: #737373;
     .about-button-testimonials{
         padding: 5px 20px;
     }
-}
+} */

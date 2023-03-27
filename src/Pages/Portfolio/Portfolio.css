@@ -2,21 +2,21 @@
 
 .portfolio-line{
     width: 13rem;
-    border: 1.5px solid #252525;
+    border: 1.5px solid #fff;
 }
 .portfolio-head{
     font-family: 'Inter';
 font-style: normal;
 font-weight: 500;
 font-size: 26px;
-color: #252525;
+color: #fff;
 }
 .portfolio-text{
     font-family: 'JetBrains Mono';
 font-style: normal;
 font-weight: 400;
 font-size: 12px;
-color: #707070;
+color: #fff;
 }
 .social-icons{
     color: #4072AF;
@@ -31,8 +31,8 @@ color: #707070;
     right: 50px;
 }
 .port{
-    background: #DAE2EF;
-    padding-bottom: 3rem;
+    background: #272A2C;
+    padding: 3rem 0rem;
 }
 .port-card{
     background-color: #102d4d;
@@ -62,11 +62,11 @@ color: #707070;
     }
 
 }
-@media screen and (min-width:480px) {
+/* @media screen and (min-width:480px) {
     .card-title{
         font-size: 16px;
     }
     .port-btn{
         font-size: 12px;
     }
-}
+} */

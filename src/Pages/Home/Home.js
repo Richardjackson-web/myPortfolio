@@ -18,9 +18,11 @@ import {FaReact} from 'react-icons/fa';
 import {RiWhatsappFill, RiInstagramFill, RiFacebookCircleFill} from 'react-icons/ri'; 
 import Scroll from '../../Image/scroll.png';
 
+
 function Home() {
+
   return (
-    <div>
+    <div id="myP">
       {['lg'].map((expand) => (
         <Navbar key={expand} bg="light" expand={expand} className="mb-3">
           <Container fluid>
@@ -33,7 +35,7 @@ function Home() {
             >
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                  Offcanvas
+                  Menu
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
@@ -79,11 +81,11 @@ function Home() {
               <img className="scroll" src={Scroll}/>
             </div>
         </Row>
-        <div className="social-holder">
-        <RiWhatsappFill className="social-icons" />&nbsp;&nbsp;
-        <RiInstagramFill className="social-icons" />&nbsp;&nbsp;
-        <RiFacebookCircleFill className="social-icons" />&nbsp;&nbsp;
-        <AiFillTwitterCircle className="social-icons" />&nbsp;&nbsp;
+        <div className="home-social-holder">
+        <RiWhatsappFill className="home-social-icons" />&nbsp;&nbsp;
+        <RiInstagramFill className="home-social-icons" />&nbsp;&nbsp;
+        <RiFacebookCircleFill className="home-social-icons" />&nbsp;&nbsp;
+        <AiFillTwitterCircle className="home-social-icons" />&nbsp;&nbsp;
         </div>
     </Container>
     </div>

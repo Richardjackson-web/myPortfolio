@@ -9,7 +9,7 @@ import {RiWhatsappFill, RiInstagramFill, RiFacebookCircleFill} from 'react-icons
 
 function Contact() {
   return (
-    <div>
+    <div className="contact">
       <Container className="contact-main">
         <Row className="row-contact">
           <div>
@@ -20,45 +20,46 @@ function Contact() {
         </Row>
         <Form className="contact-form">
       <Row>
-        <Col md={3} xs={0}>
+        <Col md={3} xs={1}>
 
         </Col>
-        <Col md={3} xs={12}>
-          <Form.Control placeholder="First name" />
+        <Col md={3} xs={10}>
+          <Form.Control className="input" placeholder="First name" />
         </Col>
         <br/><br className="con-br"/><br className="con-br"/>
-        <Col md={3} xs={12}>
-          <Form.Control placeholder="Last name" />
+        <Col md={3} xs={10}>
+          <Form.Control className="input extra" placeholder="Last name" />
         </Col>
-        <Col md={3} xs={0}>
+        <Col md={3} xs={1}>
           
         </Col>
       </Row>
       <br/>
       <Row>
-      <Col md={3} xs={0}>
+      <Col md={3} xs={1}>
           
           </Col>
-        <Col md={6} xs={12}>
-        <Form.Control placeholder="Last name" />
+        <Col md={6} xs={10}>
+        <Form.Control className="input" placeholder="Last name" />
         </Col>
-        <Col md={3} xs={0}>
+        <Col md={3} xs={1}>
           
         </Col>
       </Row>
       <br/>
       <Row>
-      <Col md={3} xs={3}>
+      <Col md={3} xs={1}>
           
         </Col>
-        <Col md={6} xs={12}>
+        <Col md={6} xs={10}>
         <Form.Control
+         className="input"
           as="textarea"
           placeholder="Leave a comment here"
           style={{ height: '100px' }}
         />
         </Col>
-        <Col md={3} xs={3}>
+        <Col md={3} xs={1}>
           
           </Col>
       </Row>
