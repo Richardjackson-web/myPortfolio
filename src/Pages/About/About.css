@@ -16,7 +16,7 @@
     background-color: #0B0E14;
 }
 .about-main{
-    background-color: #0B0E14;;
+    background-color: #0B0E14;
     padding: 30px 0px;
     margin-top: 30px;
 }
@@ -89,7 +89,7 @@ color: #4072AF;
     position: relative;
 }
 .about-image{
-    width:404px;
+    max-width:404px;
     height:432px;
     background-image:url(../../Image/AboutImage.jpg);
     background-color: #6c6c6c;
@@ -152,7 +152,7 @@ color: #a7a7a7;
 font-style: normal;
 font-weight: 800;
 font-size: 36px;
-color: #000000;
+color: #ffffff;
 }
 .test-div{
     max-width:100%;
@@ -199,7 +199,7 @@ color: #737373;
     color: #4072AF;
     font-size: 30px;
 }
-@media screen and (max-width:480px) {
+@media screen and (max-width:575px) {
     .about-boxOne{
         margin-top: 1.5rem;
     }
@@ -229,6 +229,7 @@ color: #737373;
         margin-left: auto;
         margin-right:auto;
         display:block;
+        max-width: 370px;
     }
     .index-img{
         top: 1.5rem;

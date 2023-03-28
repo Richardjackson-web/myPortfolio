@@ -40,7 +40,7 @@ function Contact() {
           
           </Col>
         <Col md={6} xs={10}>
-        <Form.Control className="input" placeholder="Last name" />
+        <Form.Control className="input" placeholder="Email address" />
         </Col>
         <Col md={3} xs={1}>
           
@@ -55,7 +55,7 @@ function Contact() {
         <Form.Control
          className="input"
           as="textarea"
-          placeholder="Leave a comment here"
+          placeholder="Leave your message here"
           style={{ height: '100px' }}
         />
         </Col>

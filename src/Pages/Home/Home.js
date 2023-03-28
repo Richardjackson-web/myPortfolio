@@ -47,8 +47,8 @@ function Home() {
                   <Nav.Link href="#action2" className="con">Contact</Nav.Link>
                 </Nav>
                 <Form className="d-flex connect">
-                <Nav.Link href="#action2" className="con box">LinkedIn</Nav.Link> &nbsp;&nbsp;
-                  <Nav.Link href="#action2" className="con box">GitHub</Nav.Link>&nbsp;&nbsp;
+                <Nav.Link href="https://www.linkedin.com/in/richard-jackson-802897190/" className="con box">LinkedIn</Nav.Link> &nbsp;&nbsp;
+                  <Nav.Link href="https://github.com/Richardjackson-web" className="con box">GitHub</Nav.Link>&nbsp;&nbsp;
                   <Nav.Link href="#action2" className="top mail"><AiOutlineMail className="main-mail"/></Nav.Link>
                 </Form>
               </Offcanvas.Body>
