@@ -59,7 +59,7 @@ function Home() {
 
     <Container>
         <Row className="row-home">
-            <Col sm={6} className="boxOne">
+            <Col sm={5} className="boxOne">
                 <div className="hold">
                     <h1 className="home-text">Hi There!<br/> I'm Richard.</h1>
                     <p className="home-front">Frontend Web Developer.</p>
@@ -72,7 +72,7 @@ function Home() {
                     </div>
                 </div>
             </Col>
-            <Col sm={6} className="boxTwo">
+            <Col sm={5} className="boxTwo">
             <div>
 
             </div>
