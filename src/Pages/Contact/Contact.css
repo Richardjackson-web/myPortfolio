@@ -55,8 +55,7 @@ color: #000;
 .card-body{
     text-align: center;
 }
-
-@media screen and (max-width:575px) {
+@media screen and (max-width:480px) {
     .con-br{
         display: block;
     }
@@ -67,12 +66,38 @@ color: #000;
         display: block;
     }
     .extra{
-        margin-left: 2.5rem;
+        margin-left: 2.3rem;
     }
     .contact-head{
         text-align: center;
     }
     .contact-line{
         max-width: 100%;
+    }
+}
+@media screen and (min-width:481px) and (max-width:575px) {
+    .con-br{
+        display: block;
+    }
+    .contact-form{
+        padding-top: 1.5rem;
+    }
+    .mobi-dis{
+        display: block;
+    }
+    .extra{
+        margin-left: 2.6rem;
+    }
+    .contact-head{
+        text-align: center;
+    }
+    .contact-line{
+        max-width: 100%;
+    }
+}
+@media screen and (min-width:576px) and (max-width:767px){
+    .extra{
+        margin-top: 1.5rem;
+        margin-left: 3rem;
     }
 }

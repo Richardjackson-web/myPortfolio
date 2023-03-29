@@ -62,11 +62,22 @@ color: #fff;
     }
 
 }
-/* @media screen and (min-width:480px) {
+@media screen and (min-width:576px) and (max-width:767px){
+    .port-col{
+        margin-top: 1.5rem;
+    }
+    .scroll{
+        display: none;
+    }
+    .social-holder{
+        display: none;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1200px) {
     .card-title{
-        font-size: 16px;
+        font-size: 1rem;
     }
-    .port-btn{
-        font-size: 12px;
+    .social-holder{
+        display: none;
     }
-} */
+}
