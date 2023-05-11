@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+
+:root{
+    --bs-light-rgb:#1b1e1f;
+    --bs-navbar-color:#ffffff;
+}
+.offcanvas-title{
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 400;
+}
+.offcanvas, .offcanvas-lg, .offcanvas-md, .offcanvas-sm, .offcanvas-xl, .offcanvas-xxl{
+    --bs-offcanvas-bg:#1b1e1f;
+    --bs-offcanvas-color:#fff;
+}
+.navbar{
+    --bs-navbar-color:#ffffff;
+    --bs-navbar-toggler-icon-bg:url(../../Image/hamburger.png);
+    --bs-navbar-toggler-border-color:#1b1e1f;
+}
+.btn-close{
+    background:url(../../Image/close.png);
+}
+.connect{
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+}.top{
+    margin: right;
+}
+.me{
+    margin: auto;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #646464;
+}
+
+.mail{
+    padding: 7px 15px 0px 15px;
+    color:#ffffff;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.13);
+border-radius: 50%;
+}
+.mail:hover{
+    background: #4072AF;
+    color: #fff;
+}.box{
+    padding: 10px 15px 0px 15px;
+    background: #181A1B;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.09);
+color:#ffffff;
+border-radius: 8px;
+}
+.box:hover{
+    background: #4072AF;
+    color:#ffffff
+}
+.con{
+    color: #ffffff;
+    text-decoration: none;
+    padding-left: 1rem;
+}
+.con:hover{
+    color: #4072AF;
+}

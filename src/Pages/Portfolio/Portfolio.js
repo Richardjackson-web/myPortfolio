@@ -13,7 +13,7 @@ import Weather from '../../Image/weatherapp.png';
 import Volunteer from '../../Image/volunteer.png';
 import {AiFillTwitterCircle} from 'react-icons/ai';
 import {RiWhatsappFill, RiInstagramFill, RiFacebookCircleFill} from 'react-icons/ri'; 
-import Scroll from '../../Image/scroll.png';
+// import Scroll from '../../Image/scroll.png';
 
 function Portfolio() {
   return (
@@ -98,7 +98,7 @@ function Portfolio() {
           </Card>
           </Col>
           <div>
-              <img className="scroll" src={Scroll}/>
+              {/* <img className="scroll" src={Scroll}/> */}
             </div>
         </Row>
 
