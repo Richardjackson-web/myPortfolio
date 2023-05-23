@@ -21,7 +21,7 @@
     --bs-navbar-toggler-border-color:#1b1e1f;
 }
 .btn-close{
-    background:url(../../Image/close.png);
+    background:url(../../Image/close.png) center/1em auto no-repeat;
 }
 .connect{
     font-family: 'JetBrains Mono';
