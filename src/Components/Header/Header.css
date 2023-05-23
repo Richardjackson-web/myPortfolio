@@ -59,13 +59,13 @@ border-radius: 8px;
 }
 .box:hover{
     background: #4072AF;
-    color:#ffffff
+    color:#ffffff;
 }
 .con{
     color: #ffffff;
     text-decoration: none;
     padding-left: 1rem;
 }
-.con:hover{
+/* .con:hover{
     color: #4072AF;
-}
+} */

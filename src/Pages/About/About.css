@@ -200,6 +200,9 @@ color: #737373;
     font-size: 30px;
 }
 @media screen and (max-width:575px) {
+    .row{
+        margin-right: 0px;
+    }
     .about-boxOne{
         margin-top: 1.5rem;
     }
